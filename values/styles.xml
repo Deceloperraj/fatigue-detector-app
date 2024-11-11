@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Customize additional theme attributes -->
+        <!-- Set the status bar color (same as colorPrimaryDark) -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Set the navigation bar color -->
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
+        <!-- Customize the color of the text and icon in toolbar -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- Use light text on the dark status bar -->
+
+    </style>
+</resources>
